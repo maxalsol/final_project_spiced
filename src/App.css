@@ -1,5 +1,5 @@
 /** FONTS **/
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap");
 
 /** BODY **/
 body {
@@ -51,6 +51,25 @@ nav ul li {
     background: url(header.jpg) no-repeat;
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 88vh;
     position: relative;
+}
+
+.main-info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Quicksand", sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-info h1 {
+    color: #ffac00;
+    text-transform: uppercase;
+}
+
+.typed-text {
+    color: snow;
+    font-size: 2rem;
 }
