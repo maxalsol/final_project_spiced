@@ -45,7 +45,3 @@ nav ul li {
 .nav-hamburger {
     color: snow;
 }
-
-.navbar-toggler:focus {
-    box-shadow: snow !important;
-}
