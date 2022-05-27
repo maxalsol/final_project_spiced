@@ -45,3 +45,12 @@ nav ul li {
 .nav-hamburger {
     color: snow;
 }
+
+/** HEADER **/
+.header-wrapper {
+    background: url(header.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
