@@ -180,6 +180,15 @@ nav ul li {
     color: snow;
 }
 
+/** EXPERIENCE **/
+/* ccd1d9
+666 */
+.experience-wrapper {
+    overflow: hidden;
+    padding: 3.125rem;
+    position: absolute;
+}
+
 /** MEDIA QUERIES **/
 @media (max-width: 420px) {
     .me-img {
