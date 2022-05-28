@@ -3,7 +3,7 @@ import Author from "../me.jpg";
 
 function About() {
     return (
-        <div className="container" py-5>
+        <div className="container py-5">
             <div className="row">
                 <div className="col-lg-6 col-xm-12">
                     <div className="photo-wrapp">
@@ -11,7 +11,7 @@ function About() {
                     </div>
                 </div>
                 <div className="col-lg-6 col-xm-12">
-                    <h1> About me</h1>
+                    <h1 className="about-heading"> About me</h1>
                     <p>
                         Nulla quis lorem ut libero malesuada feugiat. Sed
                         porttitor lectus nibh. Mauris blandit aliquet elit, eget
@@ -28,11 +28,7 @@ function About() {
                         accumsan id imperdiet et, porttitor at sem. Vestibulum
                         ac diam sit amet quam vehicula elementum sed sit amet
                         dui. Vivamus suscipit tortor eget felis porttitor
-                        volutpat. Curabitur non nulla sit amet nisl tempus
-                        convallis quis ac lectus. Donec rutrum congue leo eget
-                        malesuada. Donec rutrum congue leo eget malesuada. Cras
-                        ultricies ligula sed magna dictum porta. Vivamus
-                        suscipit tortor eget felis porttitor volutpat.
+                        volutpat.
                     </p>
                 </div>
             </div>

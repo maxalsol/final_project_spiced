@@ -107,3 +107,23 @@ nav ul li {
     padding: 0.3rem;
     width: 16rem;
 }
+
+.photo-wrapp {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.about-heading {
+    color: #ffac00;
+    text-transform: uppercase;
+}
+
+/** MEDIA QUERIES **/
+@media (max-width: 420px) {
+    .me-img {
+        width: 10rem;
+    }
+}
