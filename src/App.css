@@ -3,7 +3,7 @@
 
 /** BODY **/
 body {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Quicksand", sans-serif !important;
 }
 
 /** PARTICLES **/
@@ -71,7 +71,6 @@ nav ul li {
     bottom: 0;
     display: flex;
     flex-direction: column;
-    font-family: "Quicksand", sans-serif;
     justify-content: center;
     left: 0;
     position: absolute;
@@ -99,4 +98,12 @@ nav ul li {
     text-decoration: none;
     text-transform: uppercase;
     z-index: 2;
+}
+
+/** ABOUT **/
+.me-img {
+    border: 1px solid #ffac00;
+    border-radius: 50%;
+    padding: 0.3rem;
+    width: 16rem;
 }
