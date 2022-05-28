@@ -13,9 +13,10 @@ function Header() {
                         "Web Development",
                         "Search Engine Optimization",
                         "Drop Servicing",
+                        "Hallo",
                     ]}
-                    typeSpeed={40}
-                    backSpeed={60}
+                    typeSpeed={90}
+                    backSpeed={40}
                     loop
                 />
                 <a href="#" className="btn-main-offer">

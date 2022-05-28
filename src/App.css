@@ -6,7 +6,18 @@ body {
     font-family: "Quicksand", sans-serif;
 }
 
+/** PARTICLES **/
+.tsparticles-canvas-el {
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+}
+
 /** NAVBAR **/
+nav {
+    z-index: 2;
+}
 
 .my-logo {
     width: 16.25rem;
@@ -87,4 +98,5 @@ nav ul li {
     padding: 0.75rem;
     text-decoration: none;
     text-transform: uppercase;
+    z-index: 2;
 }
