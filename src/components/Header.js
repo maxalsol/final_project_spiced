@@ -9,9 +9,9 @@ function Header() {
                 <Typed
                     className="typed-text"
                     strings={[
-                        // "Web Design",
+                        "Web Design",
                         "Web Development",
-                        "Search Engine Optimization",
+                        "Social Media",
                         "Drop Servicing",
                     ]}
                     typeSpeed={70}
