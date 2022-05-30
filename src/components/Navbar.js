@@ -1,7 +1,7 @@
 // rfce to use snippet to create functional component
 
 import React from "react";
-import myLogo from "../logo.png";
+// import myLogo from "../logo.png";
 //
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -12,7 +12,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-dark">
                 <div className="container">
                     <a className="navbar-brand" href="#">
-                        <img className="my-logo" src={myLogo} alt="logo"></img>
+                        {/* <img className="my-logo" src={myLogo} alt="logo"></img> */}
                     </a>
                     <button
                         className="navbar-toggler"

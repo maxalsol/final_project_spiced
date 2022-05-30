@@ -9,7 +9,7 @@ function Experience() {
             <div className="container experience-wrapper">
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
-                    <div className="timeline-contene">
+                    <div className="timeline-content">
                         <h3>2017-2018</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -23,7 +23,7 @@ function Experience() {
                 </div>
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
-                    <div className="timeline-contene">
+                    <div className="timeline-content">
                         <h3>2018-2020</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -37,7 +37,7 @@ function Experience() {
                 </div>
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
-                    <div className="timeline-contene">
+                    <div className="timeline-content">
                         <h3>2020-2021</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -51,7 +51,7 @@ function Experience() {
                 </div>
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
-                    <div className="timeline-contene">
+                    <div className="timeline-content">
                         <h3>2021-2022</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -65,7 +65,7 @@ function Experience() {
                 </div>
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
-                    <div className="timeline-contene">
+                    <div className="timeline-content">
                         <h3>2022-present</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
