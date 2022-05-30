@@ -100,6 +100,13 @@ nav ul li {
     z-index: 2;
 }
 
+.btn-main-offer:hover {
+    text-decoration: none;
+    background-color: red;
+    color: snow;
+    transition: 0.2s ease-in-out;
+}
+
 /** ABOUT **/
 .me-img {
     border: 1px solid #ffac00;
@@ -255,7 +262,7 @@ nav ul li {
 }
 
 .portfolio-image {
-    border: 1px solid #ffac00;
+    /* border: 1px solid #ffac00; */
     padding: 0 0.5rem;
     width: 15rem !important;
 }
@@ -277,6 +284,7 @@ nav ul li {
 }
 
 .portfolio-image-box:hover .overflow {
+    border: none;
     opacity: 60%;
     transition: 0.3s ease-in-out;
 }
@@ -308,6 +316,23 @@ nav ul li {
 
 .hyper-link:hover {
     color: red;
+}
+
+/** CONTACT **/
+.contact {
+    background: #343a40;
+    padding: 3rem 0;
+}
+
+.contact h1 {
+    color: #ffac00;
+    padding: 1.3rem 0;
+    text-transform: uppercase;
+}
+
+.contact p {
+    color: #f4f4f4;
+    font-size: 1.2rem;
 }
 
 /** MEDIA QUERIES **/
