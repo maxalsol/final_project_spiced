@@ -10,7 +10,7 @@ function Experience() {
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2017-2018</h3>
+                        <h3>2021</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Vivamus suscipit tortor eget felis porttitor
@@ -24,7 +24,7 @@ function Experience() {
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2018-2020</h3>
+                        <h3>2022</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Vivamus suscipit tortor eget felis porttitor
@@ -35,7 +35,7 @@ function Experience() {
                         </p>
                     </div>
                 </div>
-                <div className="timeline-block timeline-block-right">
+                {/* <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>2020-2021</h3>
@@ -76,7 +76,7 @@ function Experience() {
                             lacinia in, elementum id enim.
                         </p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

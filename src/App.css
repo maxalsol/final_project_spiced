@@ -161,6 +161,7 @@ nav ul li {
     height: 16rem;
     margin-bottom: 1.875rem;
     padding: 0.625rem;
+    transition: 0.3s ease-in-out;
 }
 
 .services .box:hover {
@@ -245,6 +246,18 @@ nav ul li {
     color: red;
     font-weight: 500;
     margin-top: 0.3125rem;
+}
+
+/** PORTFOLIO **/
+.portfolio-wrapper {
+    background: #f4f4f4;
+    padding: 3rem 0;
+}
+
+.portfolio-image {
+    border: 1px solid #ffac00;
+    padding: 0 0.5rem;
+    width: 15rem !important;
 }
 
 /** MEDIA QUERIES **/
