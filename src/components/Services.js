@@ -9,7 +9,7 @@ function Services() {
             <h1 className="py-5">My Services</h1>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-3 col-sm-6">
+                    <div className="col-lg-3 col-md-3 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon
@@ -25,7 +25,7 @@ function Services() {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6">
+                    <div className="col-lg-3 col-md-3 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon
@@ -38,7 +38,7 @@ function Services() {
                             <p>Cras ultricies ligula sed magna dictum porta.</p>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6">
+                    <div className="col-lg-3 col-md-3 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon
@@ -53,7 +53,7 @@ function Services() {
                             </p>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6">
+                    <div className="col-lg-3 col-md-3 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon

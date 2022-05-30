@@ -249,7 +249,7 @@ nav ul li {
 
 /** MEDIA QUERIES **/
 /* NAVBAR */
-@media (max-width: 760px) {
+@media (max-width: 768px) {
     .navbar-brand {
         width: 7rem;
     }
@@ -258,7 +258,7 @@ nav ul li {
 /* HEADER */
 
 /* TYPED TEXT */
-@media (max-width: 760px) {
+@media (max-width: 768px) {
     .main-info h1 {
         font-size: 1.7rem !important;
     }
@@ -277,6 +277,24 @@ nav ul li {
 /* SERVICES */
 
 /* EXPERIENCE */
+@media (max-width: 768px) {
+    .experience .container {
+        padding-left: 0;
+    }
+    .experience-wrapper::before {
+        left: 0.5rem;
+        margin-bottom: 1.875rem;
+    }
+    .timeline-block-right {
+        float: none;
+        width: 100%;
+    }
+    .timeline-block-left {
+        float: none;
+        direction: ltr;
+        width: 100%;
+    }
+}
 
 /* PORTFOLIO */
 
