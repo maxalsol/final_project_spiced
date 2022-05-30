@@ -260,6 +260,42 @@ nav ul li {
     width: 15rem !important;
 }
 
+.portfolio-image-box {
+    margin: 1rem;
+    position: relative;
+}
+
+.overflow {
+    background: #000;
+    border: 1px solid red;
+    cursor: pointer;
+    height: 8rem;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 15rem;
+}
+
+.portfolio-image-box:hover .overflow {
+    opacity: 60%;
+    transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+    color: #ffac00;
+    font-size: 1.5rem;
+    margin-left: -8rem;
+    margin-top: 3.6rem;
+    opacity: 0;
+    position: absolute;
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+    cursor: pointer;
+    opacity: 70%;
+    transition: 0.3s ease-in-out;
+}
+
 /** MEDIA QUERIES **/
 /* NAVBAR */
 @media (max-width: 768px) {
