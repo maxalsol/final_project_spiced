@@ -1,7 +1,7 @@
 import React from "react";
 import Author from "../me.jpg";
 
-function About() {
+const About = () => {
     return (
         <div className="container py-5">
             <div className="row">
@@ -34,6 +34,6 @@ function About() {
             </div>
         </div>
     );
-}
+};
 
 export default About;

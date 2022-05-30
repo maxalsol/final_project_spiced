@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 
-function Header() {
+const Header = () => {
     return (
         <div className="header-wrapper">
             <div className="main-info">
@@ -24,6 +24,6 @@ function Header() {
             </div>
         </div>
     );
-}
+};
 
 export default Header;

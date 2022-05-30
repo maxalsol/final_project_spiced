@@ -1,6 +1,6 @@
 import React from "react";
 
-function Experience() {
+const Experience = () => {
     return (
         <div className="experience">
             <div className="d-flex justify-content-center my-5">
@@ -80,6 +80,6 @@ function Experience() {
             </div>
         </div>
     );
-}
+};
 
 export default Experience;

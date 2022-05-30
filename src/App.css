@@ -296,6 +296,20 @@ nav ul li {
     transition: 0.3s ease-in-out;
 }
 
+.portfolio-image-popupbox {
+    padding: 0 0.5rem;
+    width: 45rem;
+}
+
+.hyper-link {
+    color: #ffac00;
+    cursor: pointer;
+}
+
+.hyper-link:hover {
+    color: red;
+}
+
 /** MEDIA QUERIES **/
 /* NAVBAR */
 @media (max-width: 768px) {

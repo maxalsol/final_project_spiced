@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
 
-function Services() {
+const Services = () => {
     return (
         <div className="services">
             <h1 className="py-5">My Services</h1>
@@ -73,6 +73,6 @@ function Services() {
             </div>
         </div>
     );
-}
+};
 
 export default Services;
