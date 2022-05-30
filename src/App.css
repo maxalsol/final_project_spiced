@@ -188,7 +188,7 @@ nav ul li {
 .experience-wrapper {
     overflow: hidden;
     padding: 3.125rem 0;
-    position: absolute;
+    position: relative;
 }
 
 .experience h1 {
@@ -248,8 +248,36 @@ nav ul li {
 }
 
 /** MEDIA QUERIES **/
+/* NAVBAR */
+@media (max-width: 760px) {
+    .navbar-brand {
+        width: 7rem;
+    }
+}
+
+/* HEADER */
+
+/* TYPED TEXT */
+@media (max-width: 760px) {
+    .main-info h1 {
+        font-size: 1.7rem !important;
+    }
+    .typed-text {
+        font-size: 1.3rem !important;
+    }
+}
+
+/* ABOUT */
 @media (max-width: 420px) {
     .me-img {
         width: 10rem;
     }
 }
+
+/* SERVICES */
+
+/* EXPERIENCE */
+
+/* PORTFOLIO */
+
+/* CONTACT */
