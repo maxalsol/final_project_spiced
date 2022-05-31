@@ -53,7 +53,7 @@ const Footer = () => {
                                     className="footer-nav"
                                     href="#"
                                 >
-                                    Services
+                                    ServiceS
                                 </Link>{" "}
                             </div>
                             <div className="col">
