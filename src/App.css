@@ -360,6 +360,10 @@ nav ul li {
     color: #ffac00;
 }
 
+.contact textarea {
+    height: 9.5rem;
+}
+
 /** MEDIA QUERIES **/
 /* NAVBAR */
 @media (max-width: 768px) {
