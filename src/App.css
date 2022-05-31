@@ -90,7 +90,7 @@ nav ul li {
 }
 
 .btn-main-offer {
-    color: snow;
+    color: #ffac00;
     border: 1px solid red;
     border-radius: 10px;
     margin: 2rem;
@@ -333,6 +333,31 @@ nav ul li {
 .contact p {
     color: #f4f4f4;
     font-size: 1.2rem;
+}
+
+.contact input,
+.contact textarea {
+    background: none;
+    border: 0;
+    border-bottom: 0.125rem solid #000;
+    border-radius: 0;
+    box-shadow: none !important;
+    box-sizing: border-box;
+    color: grey;
+    outline: 0 !important;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    padding: 4rem 0;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    background: transparent;
+    border-bottom: 0.125rem solid #000;
+    color: #ffac00;
 }
 
 /** MEDIA QUERIES **/
