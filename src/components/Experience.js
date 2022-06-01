@@ -32,7 +32,7 @@ const Experience = () => {
                             the basic and advanced technologies and frameworks
                             in the web development industry. I built Full Stack
                             applications with different approaches such as a
-                            peition website, an image board or a social network
+                            petition website, an image board or a social network
                             with chat functionality.
                         </p>
                     </div>

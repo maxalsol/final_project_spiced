@@ -21,9 +21,9 @@ const Portfolio = () => {
                     alt="Connect 4 Project"
                 />
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-                    cumque illo est expedita quos adipisci suscipit unde itaque
-                    qui perferendis.
+                    This is version of Connect 4 which i built during the
+                    bootcamp. It's written with vanilla HTML, CSS and JS using
+                    jQuery.
                 </p>
                 {/* <b>GitHub:</b>{" "}
                 <a
@@ -68,9 +68,9 @@ const Portfolio = () => {
                     alt="Petition Project"
                 />
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-                    cumque illo est expedita quos adipisci suscipit unde itaque
-                    qui perferendis.
+                    My first Full Stack website. A petition where you can sign
+                    up and sign. It is built with Node, Express and
+                    Express-Handlebars.
                 </p>
                 {/* <b>Demo:</b>{" "}
                 <a
@@ -129,9 +129,9 @@ const Portfolio = () => {
                     alt="Imageboard Project"
                 />
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-                    cumque illo est expedita quos adipisci suscipit unde itaque
-                    qui perferendis.
+                    In this project from SPICED Academy I set up an imageboard
+                    unsing the PEVN Stack. You can upload pictures and share
+                    them with the world.
                 </p>
                 {/* <b>Demo:</b>{" "}
                 <a
@@ -190,9 +190,8 @@ const Portfolio = () => {
                     alt="Social Network Project"
                 />
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-                    cumque illo est expedita quos adipisci suscipit unde itaque
-                    qui perferendis.
+                    This is my Social network project, built with React and the
+                    PERN stack.
                 </p>
                 {/* <b>Demo:</b>{" "}
                 <a
@@ -253,7 +252,7 @@ const Portfolio = () => {
                         <img
                             className="portfolio-image"
                             src={project01}
-                            alt="Netflix Clone Project..."
+                            alt="Connect 4"
                         />
                         <div className="overflow"></div>
                         <FontAwesomeIcon
@@ -269,7 +268,7 @@ const Portfolio = () => {
                         <img
                             className="portfolio-image"
                             src={project02}
-                            alt="City Guide Project..."
+                            alt="Petition Page"
                         />
                         <div className="overflow"></div>
                         <FontAwesomeIcon
@@ -285,7 +284,7 @@ const Portfolio = () => {
                         <img
                             className="portfolio-image"
                             src={project03}
-                            alt="Portfolio React and Material UI Project..."
+                            alt="Imageboard project"
                         />
                         <div className="overflow"></div>
                         <FontAwesomeIcon
@@ -301,7 +300,7 @@ const Portfolio = () => {
                         <img
                             className="portfolio-image"
                             src={project04}
-                            alt="Task Manager React and Redux Project..."
+                            alt="Social Network project"
                         />
                         <div className="overflow"></div>
                         <FontAwesomeIcon
