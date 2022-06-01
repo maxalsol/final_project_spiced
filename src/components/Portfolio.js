@@ -12,7 +12,7 @@ import "react-popupbox/dist/react-popupbox.css";
 
 const Portfolio = () => {
     // project01
-    const openPopupboxNetflix = () => {
+    const openPopupboxProject01 = () => {
         const content = (
             <>
                 <img
@@ -25,7 +25,7 @@ const Portfolio = () => {
                     cumque illo est expedita quos adipisci suscipit unde itaque
                     qui perferendis.
                 </p>
-                <b>GitHub:</b>{" "}
+                {/* <b>GitHub:</b>{" "}
                 <a
                     className="hyper-link"
                     onClick={() =>
@@ -35,7 +35,7 @@ const Portfolio = () => {
                     }
                 >
                     https://github.com/8020Coding/netflix-project
-                </a>
+                </a> */}
             </>
         );
         PopupboxManager.open({ content });
@@ -59,7 +59,7 @@ const Portfolio = () => {
     };
 
     // project02
-    const openPopupboxCityGuide = () => {
+    const openPopupboxProject02 = () => {
         const content = (
             <>
                 <img
@@ -72,7 +72,7 @@ const Portfolio = () => {
                     cumque illo est expedita quos adipisci suscipit unde itaque
                     qui perferendis.
                 </p>
-                <b>Demo:</b>{" "}
+                {/* <b>Demo:</b>{" "}
                 <a
                     className="hyper-link"
                     onClick={() =>
@@ -96,7 +96,7 @@ const Portfolio = () => {
                     }
                 >
                     https://github.com/8020Coding/city-guide-app
-                </a>
+                </a> */}
             </>
         );
         PopupboxManager.open({ content });
@@ -120,7 +120,7 @@ const Portfolio = () => {
     };
 
     // project03
-    const openPopupboxPortfolio = () => {
+    const openPopupboxProject03 = () => {
         const content = (
             <>
                 <img
@@ -133,7 +133,7 @@ const Portfolio = () => {
                     cumque illo est expedita quos adipisci suscipit unde itaque
                     qui perferendis.
                 </p>
-                <b>Demo:</b>{" "}
+                {/* <b>Demo:</b>{" "}
                 <a
                     className="hyper-link"
                     onClick={() =>
@@ -157,7 +157,7 @@ const Portfolio = () => {
                     }
                 >
                     https://github.com/8020Coding/portfilio
-                </a>
+                </a> */}
             </>
         );
         PopupboxManager.open({ content });
@@ -181,7 +181,7 @@ const Portfolio = () => {
     };
 
     // project04
-    const openPopupboxTaskManager = () => {
+    const openPopupboxProject04 = () => {
         const content = (
             <>
                 <img
@@ -194,7 +194,7 @@ const Portfolio = () => {
                     cumque illo est expedita quos adipisci suscipit unde itaque
                     qui perferendis.
                 </p>
-                <b>Demo:</b>{" "}
+                {/* <b>Demo:</b>{" "}
                 <a
                     className="hyper-link"
                     onClick={() =>
@@ -218,7 +218,7 @@ const Portfolio = () => {
                     }
                 >
                     https://github.com/8020Coding/task-manager
-                </a>
+                </a> */}
             </>
         );
         PopupboxManager.open({ content });
@@ -248,7 +248,7 @@ const Portfolio = () => {
                 <div className="image-box-wrapper row justify-content-center">
                     <div
                         className="portfolio-image-box"
-                        onClick={openPopupboxNetflix}
+                        onClick={openPopupboxProject01}
                     >
                         <img
                             className="portfolio-image"
@@ -264,7 +264,7 @@ const Portfolio = () => {
                     {/* - */}
                     <div
                         className="portfolio-image-box"
-                        onClick={openPopupboxCityGuide}
+                        onClick={openPopupboxProject02}
                     >
                         <img
                             className="portfolio-image"
@@ -280,7 +280,7 @@ const Portfolio = () => {
                     {/* - */}
                     <div
                         className="portfolio-image-box"
-                        onClick={openPopupboxPortfolio}
+                        onClick={openPopupboxProject03}
                     >
                         <img
                             className="portfolio-image"
@@ -296,7 +296,7 @@ const Portfolio = () => {
                     {/* - */}
                     <div
                         className="portfolio-image-box"
-                        onClick={openPopupboxTaskManager}
+                        onClick={openPopupboxProject04}
                     >
                         <img
                             className="portfolio-image"

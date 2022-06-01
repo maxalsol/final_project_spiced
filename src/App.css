@@ -260,7 +260,7 @@ nav ul li {
     left: 50%;
     margin-left: -0.0625rem;
     width: 0.125rem;
-    height: 100%;
+    height: 93%;
     background: var(--primary-grey);
     z-index: 1;
 }
