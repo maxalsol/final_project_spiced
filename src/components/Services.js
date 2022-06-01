@@ -1,15 +1,19 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import {
+    faDesktop,
+    faFileCode,
+    faWrench,
+    faTachometerAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
     return (
-        <div className="services">
-            <h1 className="py-5">My Services</h1>
+        <div id="services" className="services">
+            <h1 className="py-5">my services</h1>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3 col-md-3 col-sm-6">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon
@@ -18,14 +22,15 @@ const Services = () => {
                                     size="2x"
                                 />
                             </div>
-                            <h3>Web Design</h3>
+                            <h3>Design</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
+                                I approach each project individually and always
+                                focus on the result.
                             </p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-sm-6">
+                    {/* - */}
+                    <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon
@@ -34,38 +39,46 @@ const Services = () => {
                                     size="2x"
                                 />
                             </div>
-                            <h3>Web Development</h3>
-                            <p>Cras ultricies ligula sed magna dictum porta.</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-3 col-sm-6">
-                        <div className="box">
-                            <div className="circle">
-                                <FontAwesomeIcon
-                                    className="icon"
-                                    icon={faFacebookF}
-                                    size="2x"
-                                />
-                            </div>
-                            <h3>Social Media</h3>
+
+                            <h3>Development</h3>
                             <p>
-                                Curabitur aliquet quam id dui posuere blandit.
+                                Your website will be build with an new proven
+                                technologies.
                             </p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-sm-6">
+                    {/* - */}
+                    <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="box">
                             <div className="circle">
                                 <FontAwesomeIcon
                                     className="icon"
-                                    icon={faGoogle}
+                                    icon={faWrench}
                                     size="2x"
                                 />
                             </div>
-                            <h3>Drop Servicing</h3>
+
+                            <h3>Maintainance</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
+                                Your potential clients well see your services or
+                                product on Facebook.
+                            </p>
+                        </div>
+                    </div>
+                    {/* - */}
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                        <div className="box">
+                            <div className="circle">
+                                <FontAwesomeIcon
+                                    className="icon"
+                                    icon={faTachometerAlt}
+                                    size="2x"
+                                />
+                            </div>
+                            <h3>Performance</h3>
+                            <p>
+                                Your service or product will appear at the top
+                                of the Google search.
                             </p>
                         </div>
                     </div>

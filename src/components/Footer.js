@@ -1,10 +1,17 @@
 import React from "react";
+// import {
+//     FacebookIcon,
+//     LinkedinIcon,
+//     TwitterIcon,
+//     InstagramIcon,
+// } from "react-share";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    FacebookIcon,
-    TwitterIcon,
-    RedditIcon,
-    LinkedinIcon,
-} from "react-share";
+    faFacebookF,
+    faLinkedin,
+    faTwitter,
+    faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-scroll";
 
 const Footer = () => {
@@ -53,7 +60,7 @@ const Footer = () => {
                                     className="footer-nav"
                                     href="#"
                                 >
-                                    ServiceS
+                                    Services
                                 </Link>{" "}
                             </div>
                             <div className="col">
@@ -95,16 +102,41 @@ const Footer = () => {
                                 href="https://www.facebook.com/maxclusivesolutions"
                                 target="_blank"
                             >
-                                <FacebookIcon className="mx-3" size={36} />
+                                <FontAwesomeIcon
+                                    className="icon mx-3"
+                                    icon={faFacebookF}
+                                    size="2x"
+                                />
                             </a>
-                            <a href="#" target="_blank">
-                                <TwitterIcon className="mx-3" size={36} />
+                            <a
+                                href="https://www.linkedin.com/in/maximilian-pallat-b802b3183"
+                                target="_blank"
+                            >
+                                <FontAwesomeIcon
+                                    className="icon mx-3"
+                                    icon={faLinkedin}
+                                    size="2x"
+                                />
                             </a>
-                            <a href="#" target="_blank">
-                                <RedditIcon className="mx-3" size={36} />
+                            <a
+                                href="https://twitter.com/maxalsol"
+                                target="_blank"
+                            >
+                                <FontAwesomeIcon
+                                    className="icon mx-3"
+                                    icon={faTwitter}
+                                    size="2x"
+                                />
                             </a>
-                            <a href="#" target="_blank">
-                                <LinkedinIcon className="mx-3" size={36} />
+                            <a
+                                href="https://www.instagram.com/maxalsol"
+                                target="_blank"
+                            >
+                                <FontAwesomeIcon
+                                    className="icon mx-3"
+                                    icon={faInstagram}
+                                    size="2x"
+                                />
                             </a>
                         </div>
                         <p className="pt-3 text-center">

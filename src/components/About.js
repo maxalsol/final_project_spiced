@@ -1,34 +1,36 @@
 import React from "react";
-import Author from "../me.jpg";
+import author from "../me.jpg";
 
-const About = () => {
+const AboutMe = () => {
     return (
-        <div className="container py-5">
+        <div id="about" className="container py-5">
             <div className="row">
                 <div className="col-lg-6 col-xm-12">
-                    <div className="photo-wrapp">
-                        <img className="me-img" src={Author} alt="me"></img>
+                    <div className="photo-wrap mb-5">
+                        <img
+                            className="profile-img"
+                            src={author}
+                            alt="author..."
+                        />
                     </div>
                 </div>
                 <div className="col-lg-6 col-xm-12">
-                    <h1 className="about-heading"> About me</h1>
+                    <h1 className="about-heading">about me</h1>
                     <p>
-                        Nulla quis lorem ut libero malesuada feugiat. Sed
-                        porttitor lectus nibh. Mauris blandit aliquet elit, eget
-                        tincidunt nibh pulvinar a. Quisque velit nisi, pretium
-                        ut lacinia in, elementum id enim. Praesent sapien massa,
-                        convallis a pellentesque nec, egestas non nisi. Proin
-                        eget tortor risus. Quisque velit nisi, pretium ut
-                        lacinia in, elementum id enim. Mauris blandit aliquet
-                        elit, eget tincidunt nibh pulvinar a. Mauris blandit
-                        aliquet elit, eget tincidunt nibh pulvinar a. Donec
-                        sollicitudin molestie malesuada. Cras ultricies ligula
-                        sed magna dictum porta. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Curabitur arcu erat,
-                        accumsan id imperdiet et, porttitor at sem. Vestibulum
-                        ac diam sit amet quam vehicula elementum sed sit amet
-                        dui. Vivamus suscipit tortor eget felis porttitor
-                        volutpat.
+                        Donec rutrum congue leo eget malesuada. Mauris blandit
+                        aliquet elit, eget tincidunt nibh pulvinar a. Vivamus
+                        suscipit tortor eget felis porttitor volutpat. Vivamus
+                        magna justo, lacinia eget consectetur sed, convallis at
+                        tellus. Proin eget tortor risus. Vivamus magna justo,
+                        lacinia eget consectetur sed, convallis at tellus.
+                    </p>
+                    <p>
+                        Donec rutrum congue leo eget malesuada. Mauris blandit
+                        aliquet elit, eget tincidunt nibh pulvinar a. Vivamus
+                        suscipit tortor eget felis porttitor volutpat. Vivamus
+                        magna justo, lacinia eget consectetur sed, convallis at
+                        tellus. Proin eget tortor risus. Vivamus magna justo,
+                        lacinia eget consectetur sed, convallis at tellus.
                     </p>
                 </div>
             </div>
@@ -36,4 +38,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default AboutMe;
