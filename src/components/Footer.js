@@ -1,16 +1,10 @@
 import React from "react";
-// import {
-//     FacebookIcon,
-//     LinkedinIcon,
-//     TwitterIcon,
-//     InstagramIcon,
-// } from "react-share";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+    faGithub,
     faFacebookF,
     faLinkedin,
     faTwitter,
-    faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-scroll";
 
@@ -99,8 +93,20 @@ const Footer = () => {
                     <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
                         <div className="d-flex justify-content-center">
                             <a
+                                href="https://www.github.com/maxalsol"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FontAwesomeIcon
+                                    className="icon mx-3"
+                                    icon={faGithub}
+                                    size="2x"
+                                />
+                            </a>
+                            <a
                                 href="https://www.facebook.com/maxclusivesolutions"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <FontAwesomeIcon
                                     className="icon mx-3"
@@ -111,6 +117,7 @@ const Footer = () => {
                             <a
                                 href="https://www.linkedin.com/in/maximilian-pallat-b802b3183"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <FontAwesomeIcon
                                     className="icon mx-3"
@@ -121,20 +128,11 @@ const Footer = () => {
                             <a
                                 href="https://twitter.com/maxalsol"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <FontAwesomeIcon
                                     className="icon mx-3"
                                     icon={faTwitter}
-                                    size="2x"
-                                />
-                            </a>
-                            <a
-                                href="https://www.instagram.com/maxalsol"
-                                target="_blank"
-                            >
-                                <FontAwesomeIcon
-                                    className="icon mx-3"
-                                    icon={faInstagram}
                                     size="2x"
                                 />
                             </a>

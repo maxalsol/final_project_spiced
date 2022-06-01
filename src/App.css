@@ -32,6 +32,11 @@ nav {
     width: 16.25rem;
 }
 
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 nav a.nav-link {
     cursor: pointer;
     letter-spacing: 0.0375rem;
@@ -98,6 +103,7 @@ nav ul li {
 
 /*-------- TYPED TEXT ---------------*/
 .typed-text {
+    font-family: monospace !important;
     font-size: 2rem;
     color: var(--primary-white);
 }
@@ -105,6 +111,7 @@ nav ul li {
 @media (max-width: 768px) {
     .main-info h1 {
         font-size: 1.7rem !important;
+        margin-top: 10rem;
     }
     .typed-text {
         font-size: 1.3rem !important;
@@ -204,6 +211,12 @@ nav ul li {
     margin-bottom: 1.875rem;
     background: var(--primary-white);
     transition: 0.3s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.services .box h3 {
+    margin: 1rem 0;
 }
 
 .services .box:hover {
@@ -320,7 +333,7 @@ nav ul li {
 }
 
 .portfolio-wrapper h1 {
-    color: var(--primary-orange);
+    color: var(--primary-dark);
 }
 
 .portfolio-image {
@@ -330,8 +343,11 @@ nav ul li {
 }
 
 .portfolio-image-box {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     position: relative;
-    margin: 1rem;
+    margin: 1.2rem;
+    margin-bottom: 3rem;
 }
 
 /*------------ OVERFLOW BOX ------------------*/
@@ -341,7 +357,7 @@ nav ul li {
     background: var(--primary-black);
     width: 15rem;
     height: 8rem;
-    top: 0;
+    top: -0.5rem;
     border: 1px solid var(--primary-red);
     cursor: pointer;
 }
@@ -356,7 +372,7 @@ nav ul li {
     position: absolute;
     opacity: 0;
     margin-left: -8rem;
-    margin-top: 3.6rem;
+    margin-top: 3.2rem;
     color: var(--primary-orange);
     font-size: 1.5rem;
 }

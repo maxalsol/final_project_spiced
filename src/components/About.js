@@ -1,7 +1,7 @@
 import React from "react";
 import author from "../me.jpg";
 
-const AboutMe = () => {
+const About = () => {
     return (
         <div id="about" className="container py-5">
             <div className="row">
@@ -16,21 +16,15 @@ const AboutMe = () => {
                 </div>
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">about me</h1>
+                    <p>Lorem ipsum... jokes apart. Hi! My name is Max.</p>
                     <p>
-                        Donec rutrum congue leo eget malesuada. Mauris blandit
-                        aliquet elit, eget tincidunt nibh pulvinar a. Vivamus
-                        suscipit tortor eget felis porttitor volutpat. Vivamus
-                        magna justo, lacinia eget consectetur sed, convallis at
-                        tellus. Proin eget tortor risus. Vivamus magna justo,
-                        lacinia eget consectetur sed, convallis at tellus.
-                    </p>
-                    <p>
-                        Donec rutrum congue leo eget malesuada. Mauris blandit
-                        aliquet elit, eget tincidunt nibh pulvinar a. Vivamus
-                        suscipit tortor eget felis porttitor volutpat. Vivamus
-                        magna justo, lacinia eget consectetur sed, convallis at
-                        tellus. Proin eget tortor risus. Vivamus magna justo,
-                        lacinia eget consectetur sed, convallis at tellus.
+                        In 2021 I discovered a growing interest in web
+                        technology and I became eger to learn this skill. Coming
+                        from the background of being a car mechanic I was able
+                        to transfer a lot of soft skills with me into this
+                        field. The possibility to create new things and solve
+                        problems were a game changer. I found a passion and
+                        coding soon became something I wanted to do as a living.
                     </p>
                 </div>
             </div>
@@ -38,4 +32,4 @@ const AboutMe = () => {
     );
 };
 
-export default AboutMe;
+export default About;

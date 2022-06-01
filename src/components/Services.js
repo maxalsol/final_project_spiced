@@ -42,8 +42,8 @@ const Services = () => {
 
                             <h3>Development</h3>
                             <p>
-                                Your website will be build with an new proven
-                                technologies.
+                                Your website will be build with the newest
+                                proven software solutions.
                             </p>
                         </div>
                     </div>
@@ -60,8 +60,8 @@ const Services = () => {
 
                             <h3>Maintainance</h3>
                             <p>
-                                Your potential clients well see your services or
-                                product on Facebook.
+                                On request I will maintain your already existing
+                                website and update content if needed.
                             </p>
                         </div>
                     </div>
@@ -77,8 +77,8 @@ const Services = () => {
                             </div>
                             <h3>Performance</h3>
                             <p>
-                                Your service or product will appear at the top
-                                of the Google search.
+                                Your users are not satisfyed by your page speed?
+                                I can boost your project.
                             </p>
                         </div>
                     </div>

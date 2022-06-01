@@ -10,15 +10,15 @@ import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
-const Pofrfolio = () => {
-    // Netflix
+const Portfolio = () => {
+    // project01
     const openPopupboxNetflix = () => {
         const content = (
             <>
                 <img
                     className="portfolio-image-popupbox"
                     src={project01}
-                    alt="Netflix Clone Project..."
+                    alt="Connect 4 Project"
                 />
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
@@ -39,25 +39,33 @@ const Pofrfolio = () => {
             </>
         );
         PopupboxManager.open({ content });
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Connect 4 Project.",
+                },
+            },
+        });
     };
 
-    const popupboxConfigNetflix = {
+    const popupboxConfigProject01 = {
         titleBar: {
             enable: true,
-            text: "Netflix clone project.",
+            text: "Connect 4 Project.",
         },
         fadeIn: true,
         fadeInSpeed: 500,
     };
 
-    // City Guide App
+    // project02
     const openPopupboxCityGuide = () => {
         const content = (
             <>
                 <img
                     className="portfolio-image-popupbox"
                     src={project02}
-                    alt="City Guide App Project..."
+                    alt="Petition Project"
                 />
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
@@ -92,25 +100,33 @@ const Pofrfolio = () => {
             </>
         );
         PopupboxManager.open({ content });
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Petition Project.",
+                },
+            },
+        });
     };
 
-    const popupboxConfigCityGuide = {
+    const popupboxConfigProject02 = {
         titleBar: {
             enable: true,
-            text: "City Guide App project.",
+            text: "Petition Project.",
         },
         fadeIn: true,
         fadeInSpeed: 500,
     };
 
-    // Portfolio Project
+    // project03
     const openPopupboxPortfolio = () => {
         const content = (
             <>
                 <img
                     className="portfolio-image-popupbox"
                     src={project03}
-                    alt="Portfolio Project..."
+                    alt="Imageboard Project"
                 />
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
@@ -145,25 +161,33 @@ const Pofrfolio = () => {
             </>
         );
         PopupboxManager.open({ content });
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Imageboard Project.",
+                },
+            },
+        });
     };
 
-    const popupboxConfigPortfolio = {
+    const popupboxConfigProject03 = {
         titleBar: {
             enable: true,
-            text: "Poftfolio React and Material UI project.",
+            text: "Imageboard Project.",
         },
         fadeIn: true,
         fadeInSpeed: 500,
     };
 
-    // Task Manager React and Redux Project
+    // project04
     const openPopupboxTaskManager = () => {
         const content = (
             <>
                 <img
                     className="portfolio-image-popupbox"
                     src={project04}
-                    alt="Task Manager React and Redux Project..."
+                    alt="Social Network Project"
                 />
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
@@ -198,12 +222,20 @@ const Pofrfolio = () => {
             </>
         );
         PopupboxManager.open({ content });
+        PopupboxManager.update({
+            content,
+            config: {
+                titleBar: {
+                    text: "Social Network Project.",
+                },
+            },
+        });
     };
 
-    const popupboxConfigTaskManager = {
+    const popupboxConfigProject04 = {
         titleBar: {
             enable: true,
-            text: "Task Manager React and Redux project.",
+            text: "Social Network Project.",
         },
         fadeIn: true,
         fadeInSpeed: 500,
@@ -279,12 +311,12 @@ const Pofrfolio = () => {
                     </div>
                 </div>
             </div>
-            <PopupboxContainer {...popupboxConfigNetflix} />
-            <PopupboxContainer {...popupboxConfigCityGuide} />
-            <PopupboxContainer {...popupboxConfigPortfolio} />
-            <PopupboxContainer {...popupboxConfigTaskManager} />
+            <PopupboxContainer {...popupboxConfigProject01} />
+            <PopupboxContainer {...popupboxConfigProject02} />
+            <PopupboxContainer {...popupboxConfigProject03} />
+            <PopupboxContainer {...popupboxConfigProject04} />
         </div>
     );
 };
 
-export default Pofrfolio;
+export default Portfolio;

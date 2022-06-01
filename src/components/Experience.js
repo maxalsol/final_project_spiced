@@ -12,12 +12,11 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3>2021</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Sit omnis laboriosam odio deserunt
-                            reprehenderit optio cum ratione sequi pariatur
-                            deleniti iste perspiciatis officiis minima iusto
-                            hic, ipsa ea dicta velit! Quos, placeat ratione.
-                            Sunt cumque delectus asperiores et quas qui.
+                            I started out with some Web Development courses on
+                            freeCodeCamp and Udemy to dive into this exciting
+                            world. I realized quickly that I wanted more and to
+                            learn properly how to build and deploy professional
+                            websites.
                         </p>
                     </div>
                 </div>
@@ -27,12 +26,14 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3>2022</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Sit omnis laboriosam odio deserunt
-                            reprehenderit optio cum ratione sequi pariatur
-                            deleniti iste perspiciatis officiis minima iusto
-                            hic, ipsa ea dicta velit! Quos, placeat ratione.
-                            Sunt cumque delectus asperiores et quas qui.
+                            Now 2022 was the year to take action so I decided to
+                            join the SPICED Academy Full Stack bootcamp. During
+                            that time I gained some fundamental understanding of
+                            the basic and advanced technologies and frameworks
+                            in the web development industry. I built Full Stack
+                            applications with different approaches such as a
+                            peition website, an image board or a social network
+                            with chat functionality.
                         </p>
                     </div>
                 </div>
