@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
-import secrets from "../secrets.json";
+import secrets from "./secrets.json";
 
 let userID;
 if (process.env.NODE_ENV !== "production") {
