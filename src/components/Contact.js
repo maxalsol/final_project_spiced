@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
+import secrets from "../secrets.json";
+
+let userID;
+if (process.env.NODE_ENV !== "production") {
+    userID = secrets.KEY;
+} else {
+    userID = process.env.userID;
+}
 
 const Contacts = () => {
     const [successMessage, setSuccessMessage] = useState("");
@@ -8,7 +16,6 @@ const Contacts = () => {
 
     const serviceID = "service_ID"; //ID of service used
     const templateID = "template_ID"; //ID of template used
-    const userID = "5Zvmnz0YWHS59_1O4"; //public key from emailjs account
 
     const onSubmit = (data, r) => {
         sendEmail(
