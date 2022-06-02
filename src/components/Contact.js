@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 
-console.log(process.env);
 let userID;
-if (process.env.NODE_ENV !== "production") {
+if (process.env.NODE_ENV === "local") {
     const secrets = require("../secrets.json");
 
     userID = secrets.KEY;
