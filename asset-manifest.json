@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/final-project-spiced/static/css/main.4ee11810.chunk.css",
+    "main.js": "/final-project-spiced/static/js/main.ddfb38e4.chunk.js",
+    "main.js.map": "/final-project-spiced/static/js/main.ddfb38e4.chunk.js.map",
+    "runtime-main.js": "/final-project-spiced/static/js/runtime-main.af8414d6.js",
+    "runtime-main.js.map": "/final-project-spiced/static/js/runtime-main.af8414d6.js.map",
+    "static/css/2.9a4a10e0.chunk.css": "/final-project-spiced/static/css/2.9a4a10e0.chunk.css",
+    "static/js/2.b9115969.chunk.js": "/final-project-spiced/static/js/2.b9115969.chunk.js",
+    "static/js/2.b9115969.chunk.js.map": "/final-project-spiced/static/js/2.b9115969.chunk.js.map",
+    "static/js/3.62e90c3d.chunk.js": "/final-project-spiced/static/js/3.62e90c3d.chunk.js",
+    "static/js/3.62e90c3d.chunk.js.map": "/final-project-spiced/static/js/3.62e90c3d.chunk.js.map",
+    "index.html": "/final-project-spiced/index.html",
+    "static/css/2.9a4a10e0.chunk.css.map": "/final-project-spiced/static/css/2.9a4a10e0.chunk.css.map",
+    "static/css/main.4ee11810.chunk.css.map": "/final-project-spiced/static/css/main.4ee11810.chunk.css.map",
+    "static/js/2.b9115969.chunk.js.LICENSE.txt": "/final-project-spiced/static/js/2.b9115969.chunk.js.LICENSE.txt",
+    "static/media/avatar-1.9277ecea.png": "/final-project-spiced/static/media/avatar-1.9277ecea.png",
+    "static/media/avatar-2.75d8f23e.png": "/final-project-spiced/static/media/avatar-2.75d8f23e.png",
+    "static/media/avatar-3.d6c9b46f.png": "/final-project-spiced/static/media/avatar-3.d6c9b46f.png",
+    "static/media/App.css": "/final-project-spiced/static/media/testimonials-bg.75612be7.jpg",
+    "static/media/logo.a110200d.png": "/final-project-spiced/static/media/logo.a110200d.png",
+    "static/media/me.d5dba91d.jpg": "/final-project-spiced/static/media/me.d5dba91d.jpg",
+    "static/media/project01.97dabf26.png": "/final-project-spiced/static/media/project01.97dabf26.png",
+    "static/media/project02.bec3d5ae.png": "/final-project-spiced/static/media/project02.bec3d5ae.png",
+    "static/media/project03.9d1a5527.png": "/final-project-spiced/static/media/project03.9d1a5527.png",
+    "static/media/project04.2fbe2b49.png": "/final-project-spiced/static/media/project04.2fbe2b49.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af8414d6.js",
+    "static/css/2.9a4a10e0.chunk.css",
+    "static/js/2.b9115969.chunk.js",
+    "static/css/main.4ee11810.chunk.css",
+    "static/js/main.ddfb38e4.chunk.js"
+  ]
+}
