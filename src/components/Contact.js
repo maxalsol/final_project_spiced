@@ -7,7 +7,7 @@ let userID;
 if (process.env.NODE_ENV !== "production") {
     userID = secrets.KEY;
 } else {
-    userID = process.env.userID;
+    userID = process.env;
 }
 
 const Contacts = () => {
@@ -16,6 +16,7 @@ const Contacts = () => {
 
     const serviceID = "service_ID"; //ID of service used
     const templateID = "template_ID"; //ID of template used
+    // const userID = "5Zvmnz0YWHS59_1O4";
 
     const onSubmit = (data, r) => {
         sendEmail(

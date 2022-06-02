@@ -22,19 +22,13 @@ body {
 }
 
 /** NAVBAR **/
-
 nav {
     z-index: 2;
 }
 
 .logo {
-    margin-top: 0.8rem;
-    width: 16.25rem;
-}
-
-.nav-container {
-    display: flex;
-    justify-content: space-between;
+    margin-top: 0.4rem;
+    width: 20rem;
 }
 
 nav a.nav-link {
@@ -468,6 +462,7 @@ nav ul li {
 .myCarousel h3 {
     color: var(--primary-orange);
     font-weight: 600;
+    margin-top: 1.5rem;
     text-transform: uppercase;
 }
 

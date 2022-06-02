@@ -26,7 +26,7 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3>2022</h3>
                         <p>
-                            Now 2022 was the year to take action so I decided to
+                            2022 was the year to take action. So I decided to
                             join the SPICED Academy Full Stack bootcamp. During
                             that time I gained some fundamental understanding of
                             the basic and advanced technologies and frameworks
