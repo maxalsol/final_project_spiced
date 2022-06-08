@@ -2,14 +2,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
 
-let userID;
-if (process.env.NODE_ENV === "local") {
-    const secrets = require("../secrets.json");
-
-    userID = secrets.KEY;
-} else {
-    userID = process.env.userID;
-}
+let userID = "5Zvmnz0YWHS59_1O4";
 
 const Contacts = () => {
     const [successMessage, setSuccessMessage] = useState("");
